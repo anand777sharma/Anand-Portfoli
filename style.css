@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Edu+VIC+WA+NT+Beginner&family=Josefin+Sans:wght@700&family=Roboto+Slab&display=swap');
+
+body {
+    background-image: linear-gradient(#42484f, #515c66, #98905e, #a7a79c, #a7a79c, #a7a79c, #a7a79c, #a7a79c,#98905e,#98905e,#98905e);
+}
+
+.il {
+    /* position: fixed; */
+}
+
+header {
+    background-image: linear-gradient(#42484f, #515c66, #a7a79c, #98905e);
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-content: center; */
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.smallDiscripton {
+    font-size: 50px;
+    color: white;
+    margin-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.tinytext {
+    margin-top: -90px;
+    padding: 0px;
+    color: aliceblue;
+    margin-bottom: 70px;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+.img {
+    height: 10px;
+}
+
+.btn1 {
+    border-width: 3px;
+    margin: 9px;
+    padding: 8px;
+    width: 148px;
+    height: 54px;
+    border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.form_control {
+    margin-left: 10px;
+}
+
+.sbtn {
+    /* border-width: 3px; */
+    margin: 6px;
+    background-color: #6e7578;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.social {
+    margin-top: 48px;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center;
+}
+
+.searchbar {
+    
+    display: flex;
+    
+    margin-right: 50px;
+}
+.form-control
+{
+    border-width: 3px;
+    background-color: rgba(234, 245, 245, 0);
+}
+/* .nav-item
+{
+       
+} */
+.navb {
+    margin-left: 220px;
+}
+
+/* img */
+.profilepic {
+    margin-top: -70px;
+    margin-left: -100px;
+    /* align-items: center; */
+    border-radius: 300px;
+    width: 350px
+        /* height:700px */
+}
+
+.container1 {
+    /* margin: 60px; */
+    padding: 0;
+width: 100%;
+    background-color: #7d122d;
+   
+    height: 100vh
+}
+
+.container2 {
+    margin: 60px;
+    padding: 0;
+
+    /* background-color: #7d122d; */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100vh
+}
+
+.container3 {
+    /* margin: 60px; */
+    padding: 0;
+    width: 100%;
+    background-color: #7d122d;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100vh
+}
+
+.container4 {
+    margin: 60px;
+    padding: 0;
+
+    /* background-color: #7d122d; */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100vh
+}
+.nav-link
+{
+   
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: aliceblue;
+}
+
+h2 .blast, h1 .blast
+ {
+    opacity: 0;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
